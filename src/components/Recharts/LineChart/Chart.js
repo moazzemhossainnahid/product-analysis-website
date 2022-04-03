@@ -8,6 +8,7 @@ import {
   LineChart,
   Pie,
   PieChart,
+  Tooltip,
   XAxis,
   YAxis,
 } from "recharts";
@@ -79,6 +80,7 @@ const Chart = () => {
               <LineChart className=" mx-auto" width={300} height={300} data={data}>
                 <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                 <XAxis dataKey="month"></XAxis>
+                <Tooltip/>
                 <YAxis></YAxis>
               </LineChart>
             </div>
@@ -100,6 +102,7 @@ const Chart = () => {
                   fill="#8884d8"
                 />
                 <XAxis dataKey="month"></XAxis>
+                <Tooltip/>
                 <YAxis></YAxis>
               </AreaChart>
             </div>
@@ -123,6 +126,7 @@ const Chart = () => {
                   fill="#8884d8"
                 />
                 <XAxis dataKey="month"></XAxis>
+                <Tooltip/>
                 <YAxis></YAxis>
               </BarChart>
             </div>
@@ -149,6 +153,7 @@ const Chart = () => {
                   fill="#82ca9d"
                   label
                 />
+                <Tooltip/>
               </PieChart>
             </div>
           </div>
