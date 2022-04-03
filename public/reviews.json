@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name": "Abhishek Kotte",
+        "img": "https://media.zigcdn.com/media/user/2022/Apr/manojkumarmardi33320227815514.jpg",
+        "reviewTxt": "The driving experience is superb and amazing and enjoyed a lot.According to comfortable level is awesome and coming to seating matter it's comfort for single person and for dual person little much uncomfortable that's it and over all around the bike is simply superb and awesome."
+    },
+    {
+        "id":2,
+        "name": "RAJ NARE",
+        "img": "https://media.zigcdn.com/media/user/2021/Jun/rajnare020216000814.jpg",
+        "reviewTxt": "This bike is like prototype i love drive with this naked yamaha mt15. for dual person little much uncomfortable that's it and over all around the bike is simply superb and awesome."
+    },
+    {
+        "id":3,
+        "name": "Subin Anand",
+        "img": "https://media.zigcdn.com/media/user/2022/Mar/subinanands22020227800049.jpg",
+        "reviewTxt": "The vehicle was good.Service was not proper.Engine oil was not changed.That led to engine seizing.Warrenty was claimed and i received bike after 1 month in service centre."
+    },
+    {
+        "id":4,
+        "name": "Krishna Kanth",
+        "img": "https://media.zigcdn.com/media/user/2022/Mar/jaikrish13420227799400.jpg",
+        "reviewTxt": "I am driving smoothness and comfort best things of bike colours and bike attractive look overall bike is good mileage and build qualitypickup is super top notchbest one thing no vibrations in this bikeyamaha is only good for service better then othersi love mt 15"
+    },
+    {
+        "id":5,
+        "name": "Akshay More",
+        "img": "https://media.zigcdn.com/media/user/2022/Mar/akkirajmore09120227775323.jpg",
+        "reviewTxt": "All in best bike long route local city best parfomns in traffic time ride so nice bike very good ride feeling"
+    },
+    {
+        "id":6,
+        "name": "TECHNZ SHOAIB",
+        "img": "https://media.zigcdn.com/media/user/2022/Apr/shoaibjay020227816327.jpg",
+        "reviewTxt": "Best performance it is very cool bike under 150k her front wiser amazing in traffic time ride so nice bike very good ride feeling"
+    }
+]

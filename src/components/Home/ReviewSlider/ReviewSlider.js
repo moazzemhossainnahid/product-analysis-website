@@ -1,29 +1,22 @@
 import React from "react";
-import { Carousel } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+import useReviews from "../../../hooks/useReviews";
 import "./ReviewSlider.css";
+import ReviewThree from "./ReviewThree/ReviewThree";
 
 const ReviewSlider = () => {
+  const [reviews] = useReviews();
+  const newReview = reviews.slice(0,3);
+  const navigate = useNavigate();
   return (
-    <div className="bg-light">
-      <Carousel className="py-5">
-        <Carousel.Item>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Item>
-
-        <Carousel.Item>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Item>
-
-        <Carousel.Item>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-        </Carousel.Item>
-
-      </Carousel>
+    <div className="py-5">
+      <h3 className="bg-warning py-3 my-5">Review Show: {newReview.length}</h3>
+      <div className="reviewDiv">
+      {
+        newReview.map(review => <ReviewThree review = {review} key = {review.id}></ReviewThree>)
+      } 
+    </div>
+    <button onClick={() => navigate('/reviews')} className="btn btn-outline-danger my-5">Show More Review</button>
     </div>
   );
 };
