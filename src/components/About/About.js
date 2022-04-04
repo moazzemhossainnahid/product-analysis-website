@@ -8,7 +8,7 @@ const About = () => {
             <h1 className='bg-info py-3 display-4 fw-bold text-light my-5'>Yamaha MT-15</h1>
             <div className="content">
                 <img src={image} alt="" className="img-fluid my-5" />
-                <div className="specification text-start border border-1 rounded my-5 p-5 w-50 mx-auto">
+                <div className="specification text-start border border-1 rounded my-5 p-5 w-100 mx-auto">
                     <h2 className=" d-flex justify-content-around border border-1 rounded py-2 my-2 text-success">Price: <span className="text-success">	Tk.395,000</span></h2>
                     <h3 className="text-center py-5">-Top Features-</h3>
                     <h4 className=" d-flex justify-content-around border border-1 rounded py-2 my-2">Body Type: <span className="text-danger">	Sports Naked Bikes</span></h4>

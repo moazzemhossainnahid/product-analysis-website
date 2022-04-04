@@ -1,5 +1,5 @@
 import React from 'react';
-import Chart from '../Recharts/LineChart/Chart';
+import Chart from '../Recharts/Chart/Chart';
 import './Dashboard.css';
 
 const Dashboard = () => {
