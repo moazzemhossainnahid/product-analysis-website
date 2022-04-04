@@ -1,0 +1,6 @@
+.socialIco{
+    cursor: pointer;
+}
+.socialIco:hover{
+    color: darkorange;
+}

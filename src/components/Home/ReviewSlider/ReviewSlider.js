@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import useReviews from "../../../hooks/useReviews";
@@ -10,13 +12,13 @@ const ReviewSlider = () => {
   const navigate = useNavigate();
   return (
     <div className="py-5">
-      <h3 className="bg-warning py-3 my-5">Review Show: {newReview.length}</h3>
+      <h3 className="bg-warning py-3 my-5">Customers Review : {newReview.length}</h3>
       <div className="reviewDiv">
       {
         newReview.map(review => <ReviewThree review = {review} key = {review.id}></ReviewThree>)
       } 
     </div>
-    <button onClick={() => navigate('/reviews')} className="btn btn-outline-danger my-5">Show More Review</button>
+    <button onClick={() => navigate('/reviews')} className="btn btn-outline-danger my-5">Show More Review <FontAwesomeIcon icon={faArrowRight}/></button>
     </div>
   );
 };

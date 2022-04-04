@@ -7,7 +7,7 @@ const Reviews = () => {
   const [reviews] = useReviews();
   return (
     <div className="pt-3">
-      <h3 className="bg-info py-3 my-3 mb-5">Total Review: {reviews.length}</h3>
+      <h3 className="bg-info py-3 my-3 mb-5">Customers Review: {reviews.length}</h3>
 
       <div className="reviewDiv py-5">
           {
