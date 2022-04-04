@@ -6,10 +6,10 @@ import './Reviews.css';
 const Reviews = () => {
   const [reviews] = useReviews();
   return (
-    <div>
+    <div className="pt-3">
       <h3 className="bg-info py-3 my-3 mb-5">Total Review: {reviews.length}</h3>
 
-      <div className="reviewDiv py-3">
+      <div className="reviewDiv py-5">
           {
               reviews.map(review => <ReviewData review = {review} key = {review.id}></ReviewData>)
           }

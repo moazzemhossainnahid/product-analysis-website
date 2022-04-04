@@ -1,8 +1,10 @@
 import React from "react";
 import "./Bike.css";
 import bike from '../../../images/blue_Vermillion_color.png'
+import { useNavigate } from "react-router-dom";
 
 const Bike = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="py-5">
@@ -18,7 +20,7 @@ const Bike = () => {
                 MotoGP Superstar Valentino Rossi & Maverick Viñales at that
                 time.
               </p>
-              <button className="btn btn-outline-danger">Explore More</button>
+              <button className="btn btn-outline-danger" onClick={() => navigate('/about')}>Explore More</button>
             </div>
             <div className="col-12 col-md-6 col-lg-6 my-3">
                 <img className="img-fluid w-75" src={bike} alt="" />

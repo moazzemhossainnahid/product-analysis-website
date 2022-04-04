@@ -4,7 +4,7 @@ import './Dashboard.css';
 
 const Dashboard = () => {
     return (
-        <div>
+        <div className='py-5'>
             <Chart></Chart>
         </div>
     );

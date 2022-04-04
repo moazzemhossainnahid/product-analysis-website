@@ -3,7 +3,7 @@ import './Blogs.css';
 
 const Blogs = () => {
     return (
-        <div>
+        <div className='container py-5'>
             <div className="txtDiv">
                 <h3 className="bg-danger py-3">Context API</h3>
                 <p className="">The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling from all levels of your application.The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context is also touted as an easier, lighter approach to state management using Redux.</p>
@@ -11,7 +11,7 @@ const Blogs = () => {
             <div className="txtDiv">
                 <h3 className="bg-warning py-3">Semantic Tags</h3>
                 <p className="">Semantic HTML tags provide information about the contents of those tags that goes beyond just how they look on a page. Text that is enclosed in the tag is immediately recognized by the browser as some type of coding Language.
-                Examples of semantic HTML tags include:
+                Examples of semantic HTML tags.
 
             <h4 className="pt-4">List of Semantic tags</h4>
             
